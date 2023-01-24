@@ -77,7 +77,12 @@ a{
     z-index: 2;
 }
 
-.subtitle{
+.subtitle-white{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.subtitle-rose{
     font-size: 1.125rem;
     color: #ff0052;
     text-transform: uppercase;

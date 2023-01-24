@@ -10,8 +10,8 @@ export default {
   <section class="collection">
     <div class="container">
       <div class="top text-center">
-        <p class="subtitle">today's</p>
-        <h2>Our Game Collection</h2>
+        <p class="subtitle-rose">today's</p>
+        <h2 class="subtitle-white">Our Game Collection</h2>
       </div>
       <div class="bottom">
         <div class="row g-4 justify-content-center">
@@ -49,7 +49,7 @@ export default {
                   </div>
                 </div>
                 <div class="overlay">
-                  <h4>Witch Sports Team</h4>
+                  <h4>Wolf Sports Team</h4>
                   <div class="star d-flex flex-wrap justify-content-center align-items-center">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -72,7 +72,7 @@ export default {
                   </div>
                 </div>
                 <div class="overlay">
-                  <h4>Witch Sports Team</h4>
+                  <h4>Robot Team</h4>
                   <div class="star d-flex flex-wrap justify-content-center align-items-center">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -96,20 +96,78 @@ export default {
   </section>
   <!-- end section colllection -->
 
+  <!-- start about section -->
+  <section class="about py-5">
+    <div class="container">
+      <div class="border-top">
+        <div class="row">
+          <div class="col-lg-6">
+            <div>
+              <img src="/imgs/01.png" alt="about-img" class="img-girl">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-top">
+              <p class="subtitle-rose">who we are</p>
+              <h2 class="subtitle-white">we are professional team esport</h2>
+            </div>
+            <div class="about-bottom">
+              <p>
+                Distinctively provide acces mutfuncto users whereas transparent
+                proceses somes ncentivize eficient functionalities rather than an
+                extensible archtectur services and cross
+              </p>
+              <div class="about-list">
+                <div class="list-item d-flex">
+                  <div class="circle">
+                    <img src="/imgs/icon-1.png" alt="icon-about1">
+                  </div>
+                  <div>
+                    <h5>103K COMMUNITY EARNING</h5>
+                    <p>Distinctively provide acces mutfuncto users whereas communicate leveraged services</p>
+                  </div>
+                </div>
+              </div>
+              <div class="about-list">
+                <div class="list-item d-flex">
+                  <div class="circle">
+                    <img src="/imgs/icon-2.png" alt="icon-about2">
+                  </div>
+                  <div>
+                    <h5>34M+ REGISTERED PLAYERS</h5>
+                    <p>Distinctively provide acces mutfuncto users whereas communicate leveraged services</p>
+                  </div>
+                </div>
+              </div>
+              <div class="about-list">
+                <div class="list-item d-flex">
+                  <div class="circle">
+                    <img src="/imgs/icon-3.png" alt="icon-about3">
+                  </div>
+                  <div>
+                    <h5>240K STREAMS COMPLETE</h5>
+                    <p>Distinctively provide acces mutfuncto users whereas communicate leveraged services</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- start about section -->
 </template>
 
 <style lang="scss">
+
+////////// section collection
 
   .collection{
     background-color: rgba(9,14,56,255);
 
     .top{
       padding: 100px 0px 30px 0px;
-
-      h2{
-        text-transform: uppercase;
-        font-weight: 700;
-      }
     }
   }
 
@@ -206,5 +264,35 @@ export default {
       align-items: center;
       place-content: center;
   }
+
+////////// section about
+.about{
+  background-color: rgba(9,14,56,255);
+
+  .border-top{
+    padding-top: 130px;
+
+    .img-girl{
+      width: 90%;
+    }
+  }
+
+  .about-list{
+    margin-bottom: 25px;
+
+    .list-item{
+      gap: 20px;
+    }
+    
+    .circle{
+      width: 70px;
+      height: 70px;
+      display: grid;
+      place-items: center;
+      border-radius: 100%;
+      background-color: #ff0052;
+    }
+  }
+}
 
 </style>

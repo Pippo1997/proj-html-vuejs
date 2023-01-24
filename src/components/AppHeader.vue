@@ -93,7 +93,7 @@ export default {
         <div class="row">
           <div class="col-lg-6 col-md-12"> 
             <h1>Online Game</h1>
-            <h2>Genuine Money Transaction</h2>
+            <h2 class="subtitle-white">Genuine Money Transaction</h2>
             <p>Assertively communicate an expanded array of mindshare rather than diverse technologies for magnetic applications eamlessly virtual then Conveniently monetize synergistic human capital</p>
             <button class="btn">
               <span>join us today</span> 
@@ -234,11 +234,6 @@ header{
       font-weight: 700;
       font-size: 5rem;
       text-shadow: 2px 2px 2px rgb(255 0 82 / 90%);
-    }
-
-    h2{
-      text-transform: uppercase;
-      font-weight: 700;
     }
   }
 }
