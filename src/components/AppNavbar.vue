@@ -1,8 +1,8 @@
 <script>
 export default {
   props: {
-    Menu: Array
-  }
+    Menu: Array,
+  },
 }
 </script>
 

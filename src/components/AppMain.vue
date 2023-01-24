@@ -1,5 +1,9 @@
 <script>
+import AppCardCarusel from './AppCardCarusel.vue'
 export default {
+  components: {
+    AppCardCarusel,
+  },
   data() {
     return{
       Card:[
@@ -196,7 +200,7 @@ export default {
         <h2 class="subtitle-white">MEET OUR SQUAD PLAYERS</h2>
       </div>
       <div class="carusel">
-        
+        <AppCardCarusel :Card="Card" />
       </div>
     </div>
   </section>
