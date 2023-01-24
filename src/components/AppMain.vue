@@ -1,6 +1,6 @@
 <script>
 export default {
-  
+
 }
 </script>
 
@@ -9,8 +9,8 @@ export default {
   <!-- start section colllection -->
   <section class="collection">
     <div class="container">
-      <div class="top">
-        <p>today's</p>
+      <div class="top text-center">
+        <p class="subtitle">today's</p>
         <h2>Our Game Collection</h2>
       </div>
       <div class="bottom">
@@ -38,12 +38,56 @@ export default {
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 col-12"></div>
-          <div class="col-lg-4 col-sm-6 col-12"></div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="game-collection layer">
+              <div class="game-collection-content d-flex align-items-center">
+                <div class="vs">
+                  <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+                    <div><img src="/imgs/team-1.png" alt="team-1"></div>
+                    <div><img src="/imgs/vs.png" alt="vs"></div>
+                    <div><img src="/imgs/team-2.png" alt="team-2"></div>
+                  </div>
+                </div>
+                <div class="overlay">
+                  <h4>Witch Sports Team</h4>
+                  <div class="star d-flex flex-wrap justify-content-center align-items-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="game-collection layer">
+              <div class="game-collection-content d-flex align-items-center">
+                <div class="vs">
+                  <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+                    <div><img src="/imgs/team-1.png" alt="team-1"></div>
+                    <div><img src="/imgs/vs.png" alt="vs"></div>
+                    <div><img src="/imgs/team-2.png" alt="team-2"></div>
+                  </div>
+                </div>
+                <div class="overlay">
+                  <h4>Witch Sports Team</h4>
+                  <div class="star d-flex flex-wrap justify-content-center align-items-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="mt-5 text-center">
-        <button class="btn">
+      <div class="p-5 text-center">
+        <button class="btn ">
           <span>Browse All games </span>
           <i class="fa-solid fa-circle-play"></i>
         </button>
@@ -58,6 +102,15 @@ export default {
 
   .collection{
     background-color: rgba(9,14,56,255);
+
+    .top{
+      padding: 100px 0px 30px 0px;
+
+      h2{
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
   }
 
   .game-collection{
