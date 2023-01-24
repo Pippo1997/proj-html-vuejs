@@ -29,6 +29,8 @@ export default {
 </script>
 
 <template lang="">
+
+  <!-- start header -->
   <header>
     <div class="container">
       <div class="header-top">
@@ -82,21 +84,52 @@ export default {
       </div>
     </div>
   </header>
+  <!-- end header -->
+
+  <!-- start jumbotron -->
+  <div class="jumbo">
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12"> 
+            <h1>Online Game</h1>
+            <h2>Genuine Money Transaction</h2>
+            <p>Assertively communicate an expanded array of mindshare rather than diverse technologies for magnetic applications eamlessly virtual then Conveniently monetize synergistic human capital</p>
+            <button class="btn">
+              <span>join us today</span> 
+              <i class="fa-solid fa-circle-play"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end jumbotron -->
+
 </template>
 
 <style lang="scss">
 @use '../styles/partials/variable' as *;
 
+header{
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  content: "";
+}
+
 .header-top{
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
   .left{
-    margin-left: 30px;
+    margin: 0 -55px;
 
     li{
       padding: 15px 25px;
+      margin-left: 30px;
+      position: relative;
 
-      &::after{
+      &:after{
         content: "";
         height: 120%;
         width: 1px;
@@ -104,24 +137,27 @@ export default {
         left: -20px;
         top: -7px;
         transform: rotate(-25deg);
+        position: absolute;
       }
     }
   }
 
   .right{
-    margin-right: 30px;
+    margin: 0px -14px;
 
     li{
       padding: 15px 25px;
+      position: relative;
 
-      &::after{
+      &:after{
         content: "";
-        height: 120%;
+        height: 115%;
         width: 1px;
         background-color: rgba(255, 255, 255, 0.1);
         right: 0;
         top: -5px;
         transform: rotate(25deg);
+        position: absolute;
       }
     }
   } 
@@ -130,20 +166,22 @@ export default {
 .header-bottom{
 
   .menu{
-    margin-right: 30px;
 
     .login{
       padding: 15px;
+      background-color: white;
       color: #ff0052;
       border-radius: 2px 0 0 2px;
+      position: relative;
 
-      &::before{
+      &:before{
         content: "";
         bottom: 0;
         left: 1px;
         height: 2px;
         width: 100%;
         background: #ff0052;
+        position: absolute;
       }
     }
 
@@ -152,8 +190,9 @@ export default {
       color: white;
       border-radius: 0 2px 2px 0;
       background: #ff0052;
+      position: relative;
 
-      &::before{
+      &:before{
         content: "";
         bottom: 0;
         left: 1px;
@@ -161,16 +200,43 @@ export default {
         width: 100%;
         background:white;
         border-radius: 2px;
+        position: absolute;
       }
 
-      &::after{
+      &:after{
         content: "";
         bottom: 0;
         right: -1px;
         width: 2px;
         height: calc(100% - 2px);
         background:white;
+        position: absolute;
       }
+    }
+  }
+}
+
+.jumbo{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-image: url('/imgs/bg.jpg');
+  background-size: contain;
+
+  .banner{
+    padding: 350px 0 240px;
+
+    h1{
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 5rem;
+      text-shadow: 2px 2px 2px rgb(255 0 82 / 90%);
+    }
+
+    h2{
+      text-transform: uppercase;
+      font-weight: 700;
     }
   }
 }

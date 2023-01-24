@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template lang="">
-  <nav class="d-flex flex-wrap align-items-center justify-content-between">
+  <nav>
     <ul class="d-flex">
         <li v-for="(item, index) in Menu" :key="index">
             <a href="/">{{ item.label }}</a>
