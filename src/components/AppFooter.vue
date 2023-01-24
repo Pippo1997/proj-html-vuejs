@@ -46,7 +46,7 @@ export default {
       </div>
     </div>
     <!-- footer middle -->
-    <div class="container pt-5">
+    <div class="container py-5">
       <div class="row justify-content-center">
         <div class="col-lg-4 col-sm-6 col-12">
           <div class="content-middle">
@@ -138,7 +138,7 @@ export default {
                 <div class="form-group mb-2">
                   <input type="email" class="form-control" placeholder="Your Email">
                 </div>
-                <button class="btn">
+                <button class="btn mt-3">
                   <span>Send message</span> 
                   <i class="fa-solid fa-circle-play"></i>
                 </button>
@@ -153,7 +153,7 @@ export default {
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div>
+            <div class="text-center">
               <p>©2022 Gamer  - eSpost And Gameing HTML Template.</p>
             </div>
           </div>
@@ -196,6 +196,22 @@ export default {
     .fa-star{
       color: #ff0052;
     }
+    
+    .form-group{
 
+      input{
+        border: none;
+        padding: 13px 15px;
+        box-shadow: none;
+        background: #232a5c;
+        color: white;
+      }
+    }
+
+    .footer-bottom{
+      background-color: #232a5c;
+      padding: 38px 0;
+      margin-top: 50px;
+    }
   }
 </style>
