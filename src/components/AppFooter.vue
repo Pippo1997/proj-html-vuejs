@@ -74,7 +74,7 @@ export default {
             <div class="title">
               <h4>Top jackpot games</h4>
             </div>
-            <div class="card-middle">
+            <div class="card-middle d-flex">
               <div>
                 <img src="/imgs/01 (4).jpg" alt="logopoker">
               </div>
@@ -90,7 +90,7 @@ export default {
                 </div>
               </div>
             </div>
-            <div class="card-middle">
+            <div class="card-middle d-flex">
               <div>
                 <img src="/imgs/01 (4).jpg" alt="logopoker">
               </div>
@@ -106,7 +106,7 @@ export default {
                 </div>
               </div>
             </div>
-            <div class="card-middle">
+            <div class="card-middle d-flex">
               <div>
                 <img src="/imgs/01 (4).jpg" alt="logopoker">
               </div>
