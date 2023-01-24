@@ -116,6 +116,8 @@ header{
   z-index: 999;
   width: 100%;
   content: "";
+  background: rgba(35, 42, 92, 0.3);
+  backdrop-filter: blur(20px);
 }
 
 .header-top{
@@ -222,7 +224,7 @@ header{
   height: 100%;
   z-index: 1;
   background-image: url('/imgs/bg.jpg');
-  background-size: contain;
+  background-size: cover;
 
   .banner{
     padding: 350px 0 240px;
