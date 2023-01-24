@@ -1,6 +1,36 @@
 <script>
 export default {
-
+  data() {
+    return{
+      Card:[
+        {
+          image: '/imgs/5.png',
+          title: 'GAMING TEAM',
+          backimg: '/imgs/5.jpg',
+        },
+        {
+          image: '/imgs/1.png',
+          title: 'DRAGON TEAM',
+          backimg: '/imgs/1.jpg',
+        },
+        {
+          image: '/imgs/5.png',
+          title: 'TIGER TEAM',
+          backimg: '/imgs/5.jpg',
+        },
+        {
+          image: '/imgs/1.png',
+          title: 'FROG TEAM',
+          backimg: '/imgs/1.jpg',
+        },
+        {
+          image: '/imgs/5.png',
+          title: 'SHARK TEAM',
+          backimg: '/imgs/5.jpg',
+        },
+      ]
+    }
+  }
 }
 </script>
 
@@ -157,6 +187,20 @@ export default {
     </div>
   </section>
   <!-- start about section -->
+
+  <!-- start section carusel -->
+  <section>
+    <div class="container">
+      <div class="text-center">
+        <p class="subtitle-rose">OUR TEAM PLAYERS</p>
+        <h2 class="subtitle-white">MEET OUR SQUAD PLAYERS</h2>
+      </div>
+      <div class="carusel">
+        
+      </div>
+    </div>
+  </section>
+  <!-- end section carusel -->
 </template>
 
 <style lang="scss">
