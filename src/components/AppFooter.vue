@@ -50,12 +50,12 @@ export default {
       <div class="row justify-content-center">
         <div class="col-lg-4 col-sm-6 col-12">
           <div class="content-middle">
-            <div>
+            <div class="mb-4">
               <img src="/imgs/logo.png" alt="logo">
             </div>
             <div>
               <p>Upropriate brand economca sound technolog after covalent technology enable prospective wastng markets whereas propriate and brand economca sound technolog</p>
-              <div class="d-flex">
+              <div class="d-flex mb-3">
                 <div class="me-2 logo-social">
                   <a href="/"><img src="/imgs/social-1.png" alt="social-1"></a>
                 </div>
@@ -74,13 +74,29 @@ export default {
             <div class="title">
               <h4>Top jackpot games</h4>
             </div>
-            <div class="card-middle d-flex">
+            <div class="card-middle d-flex mb-2">
               <div>
                 <img src="/imgs/01 (4).jpg" alt="logopoker">
               </div>
-              <div class="card-content">
-                <h6>free Poker Game</h6>
-                <p>Poker: $230</p>
+              <div class="card-content ms-2 p-2">
+                <div class="title">free Poker Game</div>
+                <div>Poker: $230</div>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-middle d-flex mb-2">
+              <div>
+                <img src="/imgs/01 (4).jpg" alt="logopoker">
+              </div>
+              <div class="card-content ms-2 p-2">
+                <div class="title">CLUB Poker Game</div>
+                <div>Poker: $290</div>
                 <div class="star">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -94,25 +110,9 @@ export default {
               <div>
                 <img src="/imgs/01 (4).jpg" alt="logopoker">
               </div>
-              <div class="card-content">
-                <h6>CLUB Poker Game</h6>
-                <p>Poker: $290</p>
-                <div class="star">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card-middle d-flex">
-              <div>
-                <img src="/imgs/01 (4).jpg" alt="logopoker">
-              </div>
-              <div class="card-content">
-                <h6>ROYAL Poker Game</h6>
-                <p>Poker: $330</p>
+              <div class="card-content ms-2 p-2">
+                <div class="title">ROYAL Poker Game</div>
+                <div>Poker: $330</div>
                 <div class="star">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -130,7 +130,7 @@ export default {
               <h4>Our Newsletter</h4>
             </div>
             <div class="newsletter">
-              <p></p>
+              <p>Gamer esports organization supported by community leaders</p>
               <form>
                 <div class="form-group mb-4">
                   <input type="text" class="form-control" placeholder="Your Name">
@@ -188,5 +188,14 @@ export default {
         color: #ff0052;
       }
     }
+
+    .title{
+      text-transform: uppercase;
+    }
+
+    .fa-star{
+      color: #ff0052;
+    }
+
   }
 </style>
