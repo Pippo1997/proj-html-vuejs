@@ -75,7 +75,7 @@ export default {
               <h4>Top jackpot games</h4>
             </div>
             <div class="card-middle d-flex mb-2">
-              <div>
+              <div class="image">
                 <img src="/imgs/01 (4).jpg" alt="logopoker">
               </div>
               <div class="card-content ms-2 p-2">
@@ -91,7 +91,7 @@ export default {
               </div>
             </div>
             <div class="card-middle d-flex mb-2">
-              <div>
+              <div class="image">
                 <img src="/imgs/01 (4).jpg" alt="logopoker">
               </div>
               <div class="card-content ms-2 p-2">
@@ -107,7 +107,7 @@ export default {
               </div>
             </div>
             <div class="card-middle d-flex">
-              <div>
+              <div class="image">
                 <img src="/imgs/01 (4).jpg" alt="logopoker">
               </div>
               <div class="card-content ms-2 p-2">
@@ -186,6 +186,18 @@ export default {
       i{
         font-size: 38px;
         color: #ff0052;
+      }
+    }
+
+    .image{
+      overflow: hidden;
+
+      img{
+        transition: 0.3s all linear;
+
+        &:hover{
+          transform: scale(1.2) rotate(5deg);
+        }
       }
     }
 

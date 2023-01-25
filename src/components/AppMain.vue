@@ -369,7 +369,7 @@ export default {
         <p class="subtitle-rose">Gamer t-shirt's</p>
         <h2 class="subtitle-white">explore our products</h2>
       </div>
-      <div class="bottom py-5">
+      <div class="bottom pb-5">
         <div class="row g-4 justify-content-center">
           <AppTshirt :Tshirt="Tshirt"/>
         </div>
@@ -571,4 +571,11 @@ export default {
     }
   }
 }
+
+////////// section t-shirt
+
+.t-shirt{
+  background-color: rgba(9,14,56,255);
+}
+
 </style>
