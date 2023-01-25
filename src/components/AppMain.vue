@@ -471,7 +471,7 @@ export default {
           <div class="col">
             <div class="blog-item">
               <div class="blog-inner">
-                <div class="blog-thumb">
+                <div class="blog-thumb pb-2">
                   <img src="/imgs/01 (3).jpg" alt="girl-popular">
                 </div>
                 <div class="blog-content">
@@ -493,7 +493,7 @@ export default {
           <div class="col">
             <div class="blog-item">
               <div class="blog-inner">
-                <div class="blog-thumb">
+                <div class="blog-thumb pb-2">
                   <img src="/imgs/01 (3).jpg" alt="girl-popular">
                 </div>
                 <div class="blog-content">
@@ -799,9 +799,15 @@ export default {
 }
 
 .blog-thumb{
+  overflow: hidden;
 
   img{
     width: 100%;
+    transition: 0.3s all linear;
+
+    &:hover{
+      transform: scale(1.3);
+    }
   }
 }
 
