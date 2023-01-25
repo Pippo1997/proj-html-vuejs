@@ -136,6 +136,10 @@ export default {
     font-size: 1.25rem;
     transition: 0.3s all linear;
     text-align: center;
+
+    &:hover{
+      transform: translateY(-10px);
+    }
   }
 }
 
