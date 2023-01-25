@@ -89,3 +89,11 @@ a{
     font-family: "Oswald", sans-serif;
     letter-spacing: 3px;
 }
+
+.logo-social{
+    transition: 0.3s;
+}
+
+.logo-social:hover{
+    transform: translateY(10px);
+}
