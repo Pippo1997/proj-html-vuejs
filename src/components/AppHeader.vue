@@ -125,6 +125,7 @@ export default {
   position: fixed;
   right: 5%;
   z-index: 99;
+  transition: all 0.5s ease 0s;
 
   i{
     width: 40px;
@@ -139,6 +140,7 @@ export default {
 
     &:hover{
       transform: translateY(-10px);
+      box-shadow: 0px 5px 20px 0px rgb(255 0 82 / 50%);
     }
   }
 }

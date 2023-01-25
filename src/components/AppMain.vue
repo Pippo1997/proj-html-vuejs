@@ -287,7 +287,7 @@ export default {
                       </div>
                       <div class="video-text">
                         <div class="mb-3">
-                          <a href="/">
+                          <a href="/" class="subtitle-white">
                             watch now 
                             <i class="fa-solid fa-circle-play"></i>
                           </a>
@@ -308,7 +308,7 @@ export default {
                       </div>
                       <div class="video-text">
                         <div class="mb-3">
-                          <a href="/">
+                          <a href="/" class="subtitle-white">
                             watch now 
                             <i class="fa-solid fa-circle-play"></i>
                           </a>
@@ -335,7 +335,7 @@ export default {
                       </div>
                       <div class="video-text">
                         <div class="mb-3">
-                          <a href="/">
+                          <a href="/" class="subtitle-white">
                             watch now 
                             <i class="fa-solid fa-circle-play"></i>
                           </a>
@@ -356,7 +356,7 @@ export default {
                       </div>
                       <div class="video-text">
                         <div class="mb-3">
-                          <a href="/">
+                          <a href="/" class="subtitle-white">
                             watch now 
                             <i class="fa-solid fa-circle-play"></i>
                           </a>
@@ -377,7 +377,7 @@ export default {
                       </div>
                       <div class="video-text">
                         <div class="mb-3">
-                          <a href="/">
+                          <a href="/" class="subtitle-white">
                             watch now 
                             <i class="fa-solid fa-circle-play"></i>
                           </a>
@@ -458,6 +458,65 @@ export default {
     </div>
   </section>
   <!-- end sction sponsor -->
+
+  <!-- start section popular -->
+  <section class="popular">
+    <div class="container">
+      <div class="top text-center py-5">
+        <p class="subtitle-rose">OUR RECENT NEWS</p>
+        <h2 class="subtitle-white">OUR MOST POPULAR BLOG POSTS</h2>
+      </div>
+      <div class="bottom pb-5">
+        <div class="row g-4 justify-content-center row-cols-lg-2 row-cols-1">
+          <div class="col">
+            <div class="blog-item">
+              <div class="blog-inner">
+                <div class="blog-thumb">
+                  <img src="/imgs/01 (3).jpg" alt="girl-popular">
+                </div>
+                <div class="blog-content">
+                  <h3 class="subtitle-white">Distinctive redefine resource maximizing for</h3>
+                  <div class="meta">
+
+                  </div>
+                  <p>
+                    Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one
+                  </p>
+                  <button class="btn">
+                    <span>Browse All games </span>
+                    <i class="fa-solid fa-circle-play"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="blog-item">
+              <div class="blog-inner">
+                <div class="blog-thumb">
+                  <img src="/imgs/01 (3).jpg" alt="girl-popular">
+                </div>
+                <div class="blog-content">
+                  <h3 class="subtitle-white">redefine resource maximizing for Distinctive</h3>
+                  <div class="meta">
+
+                  </div>
+                  <p>
+                    Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one
+                  </p>
+                  <button class="btn">
+                    <span>Browse All games </span>
+                    <i class="fa-solid fa-circle-play"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- start section popular -->
 
 </template>
 
@@ -726,6 +785,24 @@ export default {
 
 .sponsor{
   background-color: rgba(9,14,56,255);
+}
+
+////////// section popular
+
+.popular{
+  background-image: url('/imgs/bg (2).jpg');
+}
+
+.blog-inner{
+  background: rgba(35, 42, 92, 0.9);
+  padding: 1rem;
+}
+
+.blog-thumb{
+
+  img{
+    width: 100%;
+  }
 }
 
 </style>
