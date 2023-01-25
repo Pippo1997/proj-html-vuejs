@@ -31,11 +31,13 @@ export default {
 <template lang="">
 
   <!-- start scroll -->
-
+  <a href="scroll" class="scroll-top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
   <!-- end scroll -->
 
   <!-- start header -->
-  <header>
+  <header id="scroll">
     <div class="container">
       <div class="header-top">
         <div class="d-flex flex-wrap align-items-center justify-content-between">
@@ -114,6 +116,30 @@ export default {
 
 <style lang="scss">
 @use '../styles/partials/variable' as *;
+
+///////// scroll
+
+.scroll-top{
+  bottom: 5%;
+  opacity: 1;
+  position: fixed;
+  right: 5%;
+  z-index: 99;
+
+  i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background: #ff0052;
+    font-size: 1.25rem;
+    transition: 0.3s all linear;
+    text-align: center;
+  }
+}
+
+////////// header
 
 header{
   position: absolute;
@@ -221,6 +247,8 @@ header{
     }
   }
 }
+
+////////// jumbotron
 
 .jumbo{
   position: relative;
