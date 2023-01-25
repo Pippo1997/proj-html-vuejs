@@ -193,7 +193,7 @@ export default {
   <!-- start about section -->
 
   <!-- start section carusel -->
-  <section>
+  <section class="our-team">
     <div class="container-fluid">
       <div class="text-center">
         <p class="subtitle-rose">OUR TEAM PLAYERS</p>
@@ -345,11 +345,14 @@ export default {
 
 ////////// carusel
 
+.our-team{
+  background-color: rgba(9,14,56,255);
+  padding: 5rem 0rem;
+}
+
 .carusel{
   padding: 1rem;
   display: flex;
-  overflow-y: hidden;
-  margin-bottom: 2em;
 }
 
 </style>
