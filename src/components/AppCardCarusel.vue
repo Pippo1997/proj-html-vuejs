@@ -1,7 +1,7 @@
 <script>
 export default {
     props: {
-    Card: Array,
+    Card: Object,
   },
   data(){
     return{
@@ -30,15 +30,15 @@ export default {
         <div class="prev" @click="prev"></div>
         <div class="next" @click="next"></div>
     </div>
-    <div v-for="(Card, index) in Card" :key="index">
+    <div v-for="(C, index) in Card" :key="index">
         <div class="cards d-flex me-3">
             <div class="content">
                 <div class="d-flex aling-items-center">
-                    <img :src="Card.image" :alt="Card.title">
+                    <img :src="Card[activeImage].image" :alt="Card.title">
                 </div>
                 <div class="text-center">
-                    <h3>{{ Card.title }}</h3>
-                    <p>{{ Card.text }}</p>
+                    <h3>{{ Card[activeImage].title }}</h3>
+                    <p>{{ Card[activeImage].text }}</p>
                 </div>
                 <div class="d-flex justify-content-around mb-3">
                     <div class="me-2 logo-social">

@@ -531,6 +531,5 @@ export default {
       background-color: #ff0052;
     }
   }
-
 }
 </style>
