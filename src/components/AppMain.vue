@@ -230,6 +230,40 @@ export default {
   </section>
   <!-- end section carusel -->
 
+  <!-- start section play -->
+  <section class="play py-5">
+    <div class="container">
+      <div class="play-layer">
+        <div class="cta d-flex">
+          <div class="row align-items-center">
+            <div class="col-lg-6 p-5">
+              <div class="cta-content">
+                <p class="subtitle-rose">Let's Play together</p>
+                <h2 class="subtitle-white">JOIN <span class="color-rose">GAMER</span> ESPORTS TO BECOME
+                    NEXT PRO GAMER TODAY!</h2>
+                <p>
+                  Distinctively provide acces mutfuncto users whereas transparent
+                  proceses somes ncentivize eficient functionalities rather than an
+                  extensible archtectur services and cross
+                </p>
+                <button class="btn">
+                  <span>Join commuinity </span>
+                  <i class="fa-solid fa-circle-play"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="cta-thumb">
+                <img src="/imgs/01 (1).png" alt="play">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section play -->
+
   <!-- start section our video -->
   <section class="our-video py-5">
     <div class="container">
@@ -574,6 +608,68 @@ export default {
   padding: 1rem;
   display: flex;
   position: relative;
+}
+
+////////// section play
+
+.play{
+  background-color: rgba(9,14,56,255);
+}
+
+.cta{
+  background-image: url('/imgs/bg (4).jpg');
+}
+
+.color-rose{
+  color: #ff0052;
+}
+
+.play-layer{
+  margin-bottom: 30px;
+  transition: 0.3s all linear;
+  position: relative;
+  z-index: 1;
+
+  &::before{
+    width: 95%;
+    height: 95%;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    bottom: -12px;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    transition: 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    content: "";
+  }
+
+  &::after{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    bottom: -22px;
+    left: 50%;
+    z-index: -2;
+    transform: translateX(-50%);
+    transition: 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    content: "";
+  }
+
+  &:hover{
+      transform: translateY(10px);
+      box-shadow: 0 3px 20px rgb(0 0 0 / 40%);
+  }
+}
+
+.play-layer:hover:after, .play-layer:hover:before {
+    opacity: 0;
+    bottom: 0;
+    visibility: hidden;
 }
 
 ////////// section our video
