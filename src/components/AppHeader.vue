@@ -30,6 +30,10 @@ export default {
 
 <template lang="">
 
+  <!-- start scroll -->
+
+  <!-- end scroll -->
+
   <!-- start header -->
   <header>
     <div class="container">

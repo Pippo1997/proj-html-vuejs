@@ -64,7 +64,7 @@ export default {
 
 <template lang="">
 
-  <!-- start section colllection -->
+  <!-- start section collection -->
   <section class="collection">
     <div class="container">
       <div class="top text-center">
@@ -145,14 +145,14 @@ export default {
         </div>
       </div>
       <div class="p-5 text-center">
-        <button class="btn ">
+        <button class="btn">
           <span>Browse All games </span>
           <i class="fa-solid fa-circle-play"></i>
         </button>
       </div>
     </div>
   </section>
-  <!-- end section colllection -->
+  <!-- end section collection -->
 
   <!-- start about section -->
   <section class="about py-5">
@@ -363,7 +363,7 @@ export default {
   <!-- end section our video -->
   
   <!-- start section t-shirt -->
-  <section class="t-shirt">
+  <section class="t-shirt py-5">
     <div class="container">
       <div class="top text-center py-5">
         <p class="subtitle-rose">Gamer t-shirt's</p>
@@ -377,6 +377,54 @@ export default {
     </div>
   </section>
   <!-- end section t-shirt -->
+
+  <!-- start sction sponsor -->
+  <section class="sponsor">
+    <div class="container">
+      <div class="border-top">
+        <div class="top text-center py-5">
+          <p class="subtitle-rose">WE OUR PARTNERS</p>
+          <h2 class="subtitle-white">BECOME A PARTNER of Gamer</h2>
+        </div>
+        <div class="bottom">
+          <div class="row g-5 justify-content-center row-cols-md-5 row-cols-sm-3 row-cols-2">
+            <div class="col">
+              <img src="/imgs/05.png" alt="sponsor">
+            </div>
+            <div class="col">
+              <img src="/imgs/06.png" alt="sponsor">
+            </div>
+            <div class="col">
+              <img src="/imgs/07.png" alt="sponsor">
+            </div>
+            <div class="col">
+              <img src="/imgs/08.png" alt="sponsor">
+            </div>
+            <div class="col">
+              <img src="/imgs/05.png" alt="sponsor">
+            </div>
+            <div class="col">
+              <img src="/imgs/06.png" alt="sponsor">
+            </div>
+            <div class="col">
+              <img src="/imgs/07.png" alt="sponsor">
+            </div>
+            <div class="col">
+              <img src="/imgs/08.png" alt="sponsor">
+            </div>
+          </div>
+          <div class="py-5 text-center">
+            <button class="btn">
+              <span>Browse All games </span>
+              <i class="fa-solid fa-circle-play"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end sction sponsor -->
+
 </template>
 
 <style lang="scss">
@@ -545,8 +593,8 @@ export default {
   .video-icon{
     position: absolute;
     content: "";
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 45%;
     background-color: #ff0052;
     border-radius: 50%;
     width: 50px;
@@ -575,6 +623,12 @@ export default {
 ////////// section t-shirt
 
 .t-shirt{
+  background-color: rgba(9,14,56,255);
+}
+
+///////// section sponsor
+
+.sponsor{
   background-color: rgba(9,14,56,255);
 }
 
