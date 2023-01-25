@@ -371,9 +371,7 @@ export default {
       </div>
       <div class="bottom py-5">
         <div class="row g-4 justify-content-center">
-          <div class="col-xl-3 col-md-4 col-sm-6 col-12">
-            <AppTshirt :Tshirt="Tshirt"/>
-          </div>
+          <AppTshirt :Tshirt="Tshirt"/>
         </div>
       </div>
     </div>
