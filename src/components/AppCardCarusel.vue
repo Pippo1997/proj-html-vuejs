@@ -68,17 +68,24 @@ export default {
     }
 
     .thumbs{
+
         .prev, .next {
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
         margin: 10px 0;
         border-radius: 50%;
         background: #ccc;
         position: absolute;
-        left: 50%;
+        right: 94%;
+        bottom: 50%;
         transform: translate(-50%);
         cursor: pointer;
         z-index: 999;
-    }
+        }
+
+        .next {
+            bottom: 50%;
+            left: 96%;
+        }
     }
 </style>

@@ -205,6 +205,139 @@ export default {
     </div>
   </section>
   <!-- end section carusel -->
+
+  <!-- start section our video -->
+  <section class="our-video py-5">
+    <div class="container">
+      <div class="top text-center py-5">
+        <p class="subtitle-rose">our LATEST VIDEOS</p>
+        <h2 class="subtitle-white">check our live streaming</h2>
+      </div>
+      <div class="section-video">
+        <div class="row g-4">
+          <div class="col-12">
+            <div class="video-top">
+              <div class="row g-4 jusify-content-center">
+                <div class="col-lg-6 col-12">
+                  <div class="video-content">
+                    <div class="video-inner">
+                      <div class="video-thumb">
+                        <img src="/imgs/01.jpg" alt="girl">
+                        <div class="video-icon">
+                          <i class="fa-solid fa-circle-play"></i>
+                        </div>
+                      </div>
+                      <div class="video-text">
+                        <div class="mb-3">
+                          <a href="/">
+                            watch now 
+                            <i class="fa-solid fa-circle-play"></i>
+                          </a>
+                        </div>
+                        <h3 class="subtitle-white">2022 LVP SuperLiga Orange Summer</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <div class="video-content">
+                    <div class="video-inner">
+                      <div class="video-thumb">
+                        <img src="/imgs/01.jpg" alt="girl">
+                        <div class="video-icon">
+                          <i class="fa-solid fa-circle-play"></i>
+                        </div>
+                      </div>
+                      <div class="video-text">
+                        <div class="mb-3">
+                          <a href="/">
+                            watch now 
+                            <i class="fa-solid fa-circle-play"></i>
+                          </a>
+                        </div>
+                        <h3 class="subtitle-white">PUBG CLASSIC TOURNAMENT.</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="video-bottom">
+              <div class="row g-4 justify-content-center">
+                <div class="col-xl-4 col-md-6 col-12">
+                  <div class="video-content">
+                    <div class="video-inner">
+                      <div class="video-thumb">
+                        <img src="/imgs/05.jpg" alt="girl">
+                        <div class="video-icon">
+                          <i class="fa-solid fa-circle-play"></i>
+                        </div>
+                      </div>
+                      <div class="video-text">
+                        <div class="mb-3">
+                          <a href="/">
+                            watch now 
+                            <i class="fa-solid fa-circle-play"></i>
+                          </a>
+                        </div>
+                        <h3 class="subtitle-white">Can I add My Local Bank Account ?</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                  <div class="video-content">
+                    <div class="video-inner">
+                      <div class="video-thumb">
+                        <img src="/imgs/05.jpg" alt="girl">
+                        <div class="video-icon">
+                          <i class="fa-solid fa-circle-play"></i>
+                        </div>
+                      </div>
+                      <div class="video-text">
+                        <div class="mb-3">
+                          <a href="/">
+                            watch now 
+                            <i class="fa-solid fa-circle-play"></i>
+                          </a>
+                        </div>
+                        <h3 class="subtitle-white">LEAGUE BATTLE TOURNAMENT.</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                  <div class="video-content">
+                    <div class="video-inner">
+                      <div class="video-thumb">
+                        <img src="/imgs/05.jpg" alt="girl">
+                        <div class="video-icon">
+                          <i class="fa-solid fa-circle-play"></i>
+                        </div>
+                      </div>
+                      <div class="video-text">
+                        <div class="mb-3">
+                          <a href="/">
+                            watch now 
+                            <i class="fa-solid fa-circle-play"></i>
+                          </a>
+                        </div>
+                        <h3 class="subtitle-white">Where can I Redeem My Earnings ?</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section our video -->
+
 </template>
 
 <style lang="scss">
@@ -343,7 +476,7 @@ export default {
   }
 }
 
-////////// carusel
+////////// section carusel
 
 .our-team{
   background-color: rgba(9,14,56,255);
@@ -353,6 +486,51 @@ export default {
 .carusel{
   padding: 1rem;
   display: flex;
+  position: relative;
 }
 
+////////// section our video
+
+.our-video{
+  background-image: url('/imgs/bg (3).jpg');
+}
+
+.video-inner{
+  border: 10px solid #232a5c;
+  position: relative;
+
+  img{
+    width: 100%;
+  }
+
+  .video-icon{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    background-color: #ff0052;
+    border-radius: 50%;
+    width: 50px;
+
+    i{
+      font-size: 50px;
+    }
+  }
+
+  .video-text{
+    position: absolute;
+    content: "";
+    padding: 30px;
+    left: 0px;
+    bottom: 0px;
+
+    a{
+      padding: 8px 17px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      background-color: #ff0052;
+    }
+  }
+
+}
 </style>
