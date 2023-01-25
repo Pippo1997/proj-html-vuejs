@@ -1,8 +1,10 @@
 <script>
 import AppCardCarusel from './AppCardCarusel.vue'
+import AppTshirt from './AppTshirt.vue';
 export default {
   components: {
     AppCardCarusel,
+    AppTshirt,
   },
   data() {
     return{
@@ -31,6 +33,28 @@ export default {
           image: '/imgs/5.png',
           title: 'SHARK TEAM',
           backimg: '/imgs/5.jpg',
+        },
+      ],
+      Tshirt:[
+      {
+          image: '/imgs/01 (1).jpg',
+          title: 'Blue T-Shirt Here',
+          price: '$380',
+        },
+        {
+          image: '/imgs/02 (1).jpg',
+          title: 'Blue T-Shirt Here',
+          price: '$380',
+        },
+        {
+          image: '/imgs/01 (1).jpg',
+          title: 'Blue T-Shirt Here',
+          price: '$380',
+        },
+        {
+          image: '/imgs/02 (1).jpg',
+          title: 'Blue T-Shirt Here',
+          price: '$380',
         },
       ]
     }
@@ -337,7 +361,24 @@ export default {
     </div>
   </section>
   <!-- end section our video -->
-
+  
+  <!-- start section t-shirt -->
+  <section class="t-shirt">
+    <div class="container">
+      <div class="top text-center py-5">
+        <p class="subtitle-rose">Gamer t-shirt's</p>
+        <h2 class="subtitle-white">explore our products</h2>
+      </div>
+      <div class="bottom py-5">
+        <div class="row g-4 justify-content-center">
+          <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+            <AppTshirt :Tshirt="Tshirt"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section t-shirt -->
 </template>
 
 <style lang="scss">
